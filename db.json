@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to My Blog",
+      "content": "This is the first post on the blog. Exciting things are coming!",
+      "author": "Horace Kauna"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Tips",
+      "content": "Always use const and let. Avoid var. Use arrow functions when possible.",
+      "author": "Jane Doe"
+    },
+    {
+      "id": 3,
+      "title": "Frontend Trends 2025",
+      "content": "Tailwind CSS is gaining popularity, and AI-assisted tools are on the rise.",
+      "author": "Horace Kauna"
+    },
+    {
+      "title": "Arrays",
+      "author": "horace",
+      "content": "Concatinatinion ",
+      "id": 4
+    }
+  ]
+}

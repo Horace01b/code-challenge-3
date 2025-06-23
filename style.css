@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.container >h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.main {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+#post-list {
+    flex: 1;
+    border-right: 1px solid #ddd;
+    padding-right: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#post-detail {
+    flex: 2;
+    padding-left: 1rem;
+}
+
+#post-detail h2 {
+    margin-bottom: 1rem;
+}
+
+#post-detail p {
+    margin-bottom: 1rem;
+}
+
+#post-detail .post-meta {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+#post-detail button {
+    margin-right: 0.5rem;
+}
+
+form {
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+form input, form textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    align-self: flex-start;
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#post-detail .edit_btn {
+    background-color: #ffc107;
+    color: #000;
+}
+
+#post-detail .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+#post-detail .delete-btn {
+    background-color: #dc3545;
+}
+
+#post-detail .delete-btn:hover {
+    background-color: #b02a37;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    #post-list {
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+    #post-detail {
+        padding-left: 0;
+    }
+}
