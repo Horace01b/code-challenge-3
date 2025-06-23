@@ -25,6 +25,8 @@ code-challenge-3/
  README.md # Project documentation (this file)
 
 
+## Screenshot
+![image](https://github.com/user-attachments/assets/7fca2aad-a6b8-4bf8-a9ef-0288892fdb77)
 
 
 
