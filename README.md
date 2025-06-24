@@ -51,6 +51,9 @@ code-challenge-3/
    git clone https://github.com/your-username/code-challenge-3.git
    cd code-challenge-3
 
+2. ## run the json server in terminal
+   To do this run npx json-server --watch db.json
+
 
 ## Author
 
